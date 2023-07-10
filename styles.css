@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.summary-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    background: hsl(252, 100%, 67%);
+    display: block;
+    width: 240px;
+    padding: 17px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.left-side h3 {
+    font-size: 17px;
+    color: hsl(241, 100%, 89%); 
+    margin: 10px 0 20px;
+}
+
+.number-circle {
+    background:  hsla(256, 72%, 46%, 1);
+    border-radius: 65px;
+    width: 130px;
+    height: 130px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.number-circle h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.number-max {
+    color: hsl(241, 100%, 89%); 
+    font-size: 13px;
+}
+
+.great-tag {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.left-side p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.right-side {
+    display: block;
+    width: 240px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 17px;
+    border-radius: 12px;
+}
+
+.right-side h3 {
+    display: flex;
+    font-size: 17px;
+}
+
+.right-side ul {
+    list-style: none;
+}
+
+.reaction, .memory, .verbal, .visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.reaction img, .memory img, .verbal img, .visual img {
+    margin: 0px 8px 0px 2px;
+}
+
+.reaction {
+    width: 100%;
+    
+}
+
+
+.reaction li {
+    color: hsl(0, 100%, 67%);
+    font-size: 15px;
+}
+
+.memory li {
+    color: hsl(39, 100%, 56%);
+    font-size: 15px;
+}
+
+.verbal li {
+    color: hsl(166, 100%, 37%);
+    font-size: 15px;
+}
+
+.visual li {
+    color: hsl(234, 85%, 45%);
+    font-size: 15px;
+}
+
+button {
+    background: hsl(224, 30%, 27%);
+    color: #fff;
+    padding: 5px 70px;
+    border-radius: 16px;
+    margin: 20px;
+    margin-left: 5px;
+}
